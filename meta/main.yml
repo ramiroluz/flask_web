@@ -1,0 +1,17 @@
+---
+
+galaxy_info:
+  author: "John Olson"
+  description: NA
+  company: NA
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+
+galaxy_tags:
+  - flask 
+  - web 
