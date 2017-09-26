@@ -12,6 +12,6 @@ galaxy_info:
       versions:
         - all
 
-galaxy_tags:
-  - flask 
-  - web 
+  galaxy_tags:
+    - flask 
+    - web 
