@@ -1,0 +1,8 @@
+---
+- name: provision debian 8 (jessie) droplets 
+  hosts: all
+  gather_facts: yes
+  roles:
+      - name: ramiroluz.flask_web
+        become : yes
+
