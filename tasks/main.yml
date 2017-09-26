@@ -1,4 +1,13 @@
 ---
+- name: Ensure required packages are installed.
+  apt:
+    pkg: '{{ item }}'
+    state: present
+  with_items:
+    - python-setuptools
+    - python-pip
+    - python-dev
+
 # tasks file for flask_web- name: Install Python Flask Dependencies
 - name: Install Flask
   pip: name={{ item }}  state=present
